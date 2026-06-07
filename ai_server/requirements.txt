@@ -1,0 +1,30 @@
+# 핵심 프레임워크 및 서버
+fastapi==0.120.4
+uvicorn==0.38.0
+
+# FastAPI 환경 설정 관련 모듈 (누락된 모듈 추가)
+pydantic-settings==2.11.0 
+python-dotenv==1.2.1
+
+# 데이터 처리 및 과학 계산
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+statsmodels==0.14.5
+patsy==1.0.2
+
+# 모델 로드 및 사용
+joblib==1.5.2
+scikit-learn==1.7.2
+lightgbm==4.6.0
+huggingface-hub==1.0.1
+
+# FastAPI가 의존하는 주요 라이브러리
+pydantic==2.12.3
+starlette==0.49.3
+httpcore==1.0.9
+httpx==0.28.1
+requests==2.32.5
+
+# 기타
+typing-extensions==4.15.0
